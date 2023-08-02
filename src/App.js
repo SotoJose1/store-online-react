@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>Tienda Online</h1>
+      <h1> Online Store</h1>
       <ProductList products={products} addToCart={addToCart} />
       <Cart cartItems={cartItems} />
     </div>
